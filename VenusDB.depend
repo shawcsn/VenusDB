@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1324686952 source:/home/shaw/桌面/VenusDB/VenusDB/dbDomain.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	<pthread.h>
+	<unistd.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/mman.h>
+	<time.h>
+	"dbDomain.h"
+
+1324686921 /home/shaw/桌面/VenusDB/VenusDB/dbDomain.h
+	<sys/types.h>
+	"dbUtility.h"
+
+1324690389 /home/shaw/桌面/VenusDB/VenusDB/dbUtility.h
+
+1324687058 source:/home/shaw/桌面/VenusDB/VenusDB/domainUpdate.c
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/ipc.h>
+	<sys/shm.h>
+	<sys/sem.h>
+	<time.h>
+	<sys/time.h>
+	<stdio.h>
+	<string.h>
+	<pthread.h>
+	<errno.h>
+	"domainUpdate.h"
+	"dbDomain.h"
+
+1324687024 /home/shaw/桌面/VenusDB/VenusDB/domainUpdate.h
+	<pthread.h>
+	"dbUtility.h"
+
+1324686854 source:/home/shaw/桌面/VenusDB/VenusDB/main.c
+	<stdio.h>
+	<stdlib.h>
+
